@@ -10,7 +10,7 @@
 		"url": "https://github.com/Aventyret/change-case-cli"
 	},
 	"bin": {
-		"change-case": "cli.js"
+		"change-case-cli": "cli.js"
 	},
 	"engines": {
 		"node": ">=8"
