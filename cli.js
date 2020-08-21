@@ -22,8 +22,8 @@ const cli = meow(`
 			snake
 
 	Examples
-	  $ change-case-cli
-	  unicorns & rainbows
+	  $ change-case-cli snake_case_string
+	  snakeCaseString
 `, {
 	flags: {
 		to: {

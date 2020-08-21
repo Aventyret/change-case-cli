@@ -14,14 +14,24 @@ $ npm install --global change-case-cli
 ## Usage
 
 ```
-$ change-case-cli --help
 	Usage
 	  $ change-case-cli [input]
 
 	Options
-	  --to  To Case Style  [Default: camelCase]
+	  --to  [Default: camel]
+			camel
+			capital
+			constant
+			dot
+			header
+			no
+			param
+			pascal
+			path
+			sentence
+			snake
 
 	Examples
-	  $ change-case-cli
-	  unicorns & rainbows
+	  $ change-case-cli snake_case_string
+	  snakeCaseString
 ```
