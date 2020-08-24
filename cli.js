@@ -90,7 +90,6 @@ if (cli.input.length > 0) {
 			break;
 		default:
 			break;
-
 	}
 
 	console.log(result);
