@@ -15,10 +15,10 @@ $ npm install --global change-case-cli
 
 ```
 	Usage
-	  $ change-case-cli [input]
+		$ change-case-cli [input]
 
 	Options
-	  --to  [Default: camel]
+		--to  [Default: camel]
 			camel
 			capital
 			constant
@@ -30,6 +30,8 @@ $ npm install --global change-case-cli
 			path
 			sentence
 			snake
+
+		--shift [default 0]
 
 	Examples
 	  $ change-case-cli snake_case_string
